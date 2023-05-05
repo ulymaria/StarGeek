@@ -24,8 +24,6 @@ body{
 }
 
 input{
-
-    background-color:#C1;
     margin-bottom: 20px;
     width: 100%;
     height: 40px;
@@ -295,9 +293,9 @@ h3{
     margin: 0;
 }
 main {
-    max-width: 1320px;
-    margin: 0 auto;
+    margin-left: 20px;
 }
+
 .bn{
     border: 2px solid white;
     border-radius: 100px 100px 100px 100px;
@@ -327,4 +325,112 @@ main {
     background-color:#6A0682 ;
     transition: 0.5s;
     box-shadow: 2px 2px 2px gray;
+}
+.filmes{
+    display: flex;
+    overflow: scroll;
+    margin-bottom: 50px;
+    gap: 10px;
+}
+.filmes::-webkit-scrollbar{
+    display: none;
+}
+.filmes > img{
+    max-width: 200px;
+    border-radius: 10px;
+}
+
+.series{
+    display: flex;
+    overflow: scroll;
+    margin-bottom: 50px;
+    gap: 10px;
+}
+.series::-webkit-scrollbar{
+    display: none;
+}
+.series > img{
+    max-width: 200px;
+    border-radius: 10px;
+}
+
+h1{
+    color: #9F4CE0;
+}
+.avatar:hover{
+    content: url(../img/giphy.gif);
+}
+.encanto:hover{
+    content: url(../img/Encanto-GIF-Download.gif);
+}
+.velozes:hover{
+    content: url(../img/Fast\ and\ Furious\ 2.gif);
+}
+.luca:hover{
+    content: url(../img/luca\ gif.gif);
+}
+.gente:hover{
+    content: url(../img/gente\ grande\ gif.gif);
+    width: 400px;
+}
+.simples:hover{
+    content: url(../img/simples\ gif.gif);
+}
+.charted:hover{
+    content: url(../img/uncharted.gif);
+}
+.top:hover{
+    content: url(../img/top\ gun.gif);
+}
+.jurassic:hover{
+    content: url(../img/jurassic\ gif.gif);
+}
+.depois:hover{
+    content: url(../img/depois.gif);
+}
+.musica:hover {
+    content: url(../img/musica.gif);
+}
+.culpa:hover {
+    content: url(../img/culpa.gif);
+}
+
+.nine:hover{
+    content: url(../img/991gif.gif.crdownload);
+}
+.suits:hover{
+    content: url(../img/suits\ gif.gif.crdownload);
+}
+.chicago:hover{
+    content: url(../img/chicago);
+}
+.the:hover{
+    content: url(../img/rookie\ gif.gif);
+}
+.greys:hover{
+    content: url(../img/greys.gif);
+}
+.prison:hover{
+    content: url(../img/prison\ gif.gif);
+}
+.vida:hover{
+    content: url(../img/minha\ vida\ gif.gif);
+}
+.gossip:hover{
+    content: url(../img/Serena\ gif.gif);
+}
+.one:hover{
+    content: url(../img/one.gif);
+}
+.banks:hover{
+    content: url(../img/banks.gif);
+}
+.vampire:hover{
+    content: url(../img/vampire.gif);
+}
+.brig:hover{
+    content: url(../img/brig.gif);
+}
+.cuca:hover {
+    content: url(../img/cuca.gif);
 }
