@@ -234,6 +234,8 @@ font-size:  15px;
     left: 108px;
     top: 90px;
     border-radius: 20px 20px 20px 20px;
+    text-align: center;
+    
 
  }
  .cabecalho {
@@ -331,6 +333,8 @@ main {
     overflow: scroll;
     margin-bottom: 50px;
     gap: 10px;
+    text-align: center;
+
 }
 .filmes::-webkit-scrollbar{
     display: none;
@@ -338,6 +342,17 @@ main {
 .filmes > img{
     max-width: 200px;
     border-radius: 10px;
+}
+
+.filmesAdd{
+    max-width: 200px;
+    border-radius: 10px;
+    display: flex;
+    overflow: scroll;
+    margin-bottom: 50px;
+    gap: 10px;  
+    text-align: center;
+
 }
 
 .series{
@@ -354,6 +369,27 @@ main {
     border-radius: 10px;
 }
 
+button{
+    background-color:#6F0063; ;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 20px;
+    
+}
+
+select {
+  margin: 0 auto ;
+  margin-bottom: 20px;
+  display: flex;
+  border-radius: 7px 7px 7px 7px;
+  width: 100%;
+  height: 40px;
+}
+
+
+
+
 h1{
     color: #9F4CE0;
 }
@@ -364,23 +400,36 @@ h1{
     content: url(../img/Encanto-GIF-Download.gif);
 }
 .velozes:hover{
-    content: url(../img/Fast\ and\ Furious\ 2.gif);
+    content: url(../img/brian.gif);
 }
 .luca:hover{
     content: url(../img/luca\ gif.gif);
 }
+.coisas:hover{
+    content: url(../img/coisas.gif);
+}
 .gente:hover{
-    content: url(../img/gente\ grande\ gif.gif);
+    content: url(../img/grande.gif);
     width: 400px;
 }
 .simples:hover{
     content: url(../img/simples\ gif.gif);
 }
+.culpamia:hover{
+    content: url(../img/culpa1.gif);
+}
+.paris:hover{
+    content: url(../img/paris.gif);
+}
+
 .charted:hover{
     content: url(../img/uncharted.gif);
 }
 .top:hover{
     content: url(../img/top\ gun.gif);
+}
+.moto:hover{
+    content: url(../img/moto.gif);
 }
 .jurassic:hover{
     content: url(../img/jurassic\ gif.gif);
@@ -422,11 +471,11 @@ h1{
     content: url(../img/espaco.gif);
 }
 .dança:hover {
-    content: url(../img/dança.gif);
+    content: url(../img/ela.gif);
 }
 .rei:hover {
-    content: url(../img/GIF-O-REI-DO-SHOW.gif);
-}
+    content: url(../img/rei.gif);
+}  
 .burlesque:hover {
     content: url(../img/burlesque-christina-aguilera.gif);
 }
@@ -448,6 +497,7 @@ h1{
 
 
 
+
 .nine:hover{
     content: url(../img/991gif.gif.crdownload);
 }
@@ -457,17 +507,20 @@ h1{
 .chicago:hover{
     content: url(../img/chicago);
 }
-.the:hover{
+.rookie:hover{
     content: url(../img/rookie\ gif.gif);
 }
 .greys:hover{
     content: url(../img/greys.gif);
 }
+.swat:hover{
+    content: url(../img/rondon.gif);
+}
 .prison:hover{
     content: url(../img/prison\ gif.gif);
 }
 .vida:hover{
-    content: url(../img/minha\ vida\ gif.gif);
+    content: url(../img/verao.gif);
 }
 .gossip:hover{
     content: url(../img/Serena\ gif.gif);
@@ -484,13 +537,21 @@ h1{
 .brig:hover{
     content: url(../img/brig.gif);
 }
-.cuca:hover {
+.brig:hover{
+    content: url(../img/brig.gif);
+}
+.mako:hover {
+    content: url(../img/mako.gif);
+}
+.cuca:hover{
     content: url(../img/cuca.gif);
 }
 .lucifer:hover{
     content:url(../img/lucifer\ 2.gif) ;
 }
-
+.suits:hover{
+    content:url(../img/suits2.gif) ;
+}
 .teen:hover {
     content: url(../img/teen.gif);
 }
@@ -513,22 +574,22 @@ h1{
     content: url(../img/listaa.gif);
 }
 .doces:hover {
-    content: url(../img/doces.gif);
+    content: url(../img/magnolia.gif);
 }
 .virgin:hover {
-    content: url(../img/virgin-river-dancing.gif);
+    content: url(../img/virgin2.gif);
 }
 .chesa:hover {
-    content: url(../img/chesapeake-shores-chesapeake.gif);
+    content: url(../img/chesa.gif);
 }
-.the:hover {
-    content: url(../img/the\ bold.gif);
+.bold:hover {
+    content: url(../img/type.gif);
 }
 .you:hover {
     content: url(../img/you-show-joe-goldberg.gif);
 }
 .river:hover {
-    content: url(../img/riverr.gif);
+    content: url(../img/riverdale.gif);
 }
 .the:hover {
     content: url(../img/the\ big.gif);
@@ -537,3 +598,97 @@ h1{
     content: url(../img/wandinhaa.gif);
 }
 
+
+.up:hover {
+    content: url(../img/cor.gif)
+}
+.toy:hover {
+    content: url(../img/story.gif);
+}
+.carro:hover {
+    content: url(../img/cars.gif);
+}
+.zoo:hover {
+    content: url(../img/coelha.gif);
+}
+.rio:hover {
+    content: url(../img/azul.gif);
+}
+.moana:hover {
+    content: url(../img/moana-ocean.gif);
+}
+.wall:hover {
+    content: url(../img/me-when.gif);
+}
+.meu:hover {
+    content: url(../img/uni.gif);
+}
+.era:hover {
+    content: url(../img/we-are-gonna-die-sid.gif);
+}
+.rato:hover {
+    content: url(../img/gag-reflex-remy-ratatouille-4rccpdwh5uziciwm.gif);
+}.dragao:hover {
+    content: url(../img/dragoes_netflix_dreamworks.gif);
+}
+.masha:hover {
+    content: url(../img/rosa.gif);
+}
+.bob:hover {
+    content: url(../img/SZN1.gif);
+}
+.monica:hover {
+    content: url(../img/cascao.gif);
+}
+.peppa:hover {
+    content: url(../img/aaa.gif);
+}
+.mente:hover {
+    content: url(../img/tristeza.gif);
+}
+.viva:hover {
+    content: url(../img/love-you-lots.gif);
+}
+.bee:hover {
+    content: url(../img/movie.gif);
+}
+
+
+
+
+.fe:hover {
+    content: url(../img/rosane-svartman-carolina-dieckmann.gif);
+}
+.avenida:hover {
+    content: url(../img/carminha.gif);
+}
+.dona:hover {
+    content: url(../img/a-dona-do-pedaco-maria-da-paz.gif);
+}
+.mar:hover {
+    content: url(../img/debora-bloch-mar-do-sertão.gif);
+}
+.salve:hover {
+    content: url(../img/salve-jorge-heloísa-vieira-lacerda.gif);
+}
+.india:hover:hover {
+    content: url(../img/tumblr_ns6mvhkotZ1qjlz54o5_250.gif);
+}
+.demais:hover {
+    content: url(../img/novela-totalmente-demais.gif);
+}
+.alem:hover {
+    content: url(../img/alem-da-ilusao.gif);
+}
+.:hover {
+    content: url(../img/);
+}
+.:hover {
+    content: url(../img/);
+}
+.:hover {
+    content: url(../img/);
+}
+.:hover {
+    content: url(../img/);
+}

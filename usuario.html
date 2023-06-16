@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StarGeek</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="/js/usuario.js"></script>
 </head>
 
 <body>
@@ -14,14 +15,14 @@
         <img src="img/logo.png" class="img">
         <h1>Cadastro do usuario</h1>
 
-        <input type="email" placeholder="Usuario"><br>
-        <input type="email" placeholder="Email"><br>
-        <input type="password" placeholder=" Senha"><br>
-        <input type="password" placeholder=" Confirmar senha "><br>
-
-    
-        <a href="filmes.html" class="botao-preto"> Cadastar</a>
-
+        <input type="text" placeholder="Usuario" id="nome"><br>
+        <input type="email" placeholder="Email" id="email"><br>
+        <input type="password" placeholder=" Senha" id="senha"><br>
+        <input type="password" placeholder=" Confirmar senha " id="confSenha"><br>
+        
+        <button onclick="botaoCadastro()">Cadastrar Usuário</button>
+        
+       
     </div>
 </body>
 

@@ -1,26 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+    
+   
 </head>
 <body>
     <div class="tudo">
+
         <img src="img/logo.png" class="img">
-        <h1>Cadastro de mídia</h1>
-
-        <input type="email" placeholder="Nome do título"><br>
-        <input type="email" placeholder="Categoria"><br>
-        <input type="email" placeholder="Opinião"><br>
-        
-
-    
-        <a href="filmes.html" class="botao-preto"> Cadastar</a>
-
+        <h1>Cadastro de Mídia</h1>
+        <select name="Categoria" id="categoria">
+            <option select value="Selecione">Selecione a Categoria</option>
+            <option select value="Filmes">Filme</option>
+            <option select value="series">Series</option>
+            <option select value="Animação">Animação</option>
+            <option select value="Novelas">Novela</option>
+         </select>
+         <input type="text" placeholder="Nome do título" id="nome"><br>
+        <input type="text" placeholder="Opinião" id="opiniao"><br>
+        <input type="text" id="link" placeholder="Link do filme">
+       
+        <button onclick="cadastrarMidia()">Cadastrar</button>
     </div>
 </body>
-</body>
+<script src="js/cadastro.js"></script>
 </html>

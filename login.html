@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StarGeek</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="/js/usuario.js"></script>
 </head>
 
 <body>
@@ -16,14 +17,14 @@
     <div class="tudo">
         <img src="img/logo.png" class="img">
         <h1>Login</h1>
-        <input type="email" placeholder=" email"><br>
+        <input type="email" placeholder=" email" id="Login"><br>
 
-        <input type="password" placeholder="Senha"><br>
+        <input type="password" placeholder="Senha" id="senha"><br>
      
-        <a href="filmes.html" class="botao-preto"> Entrar</a>
-        <a href="usuario.html" class="botao-preto"> Cadastar</a>
-
-    </div>
+        <button onclick="botaoLogin()">Entrar</button>
+        <button onclick="botaoCadastrese()">Cadastrar</button>
+    
+       
 </body>
 
 </html>
